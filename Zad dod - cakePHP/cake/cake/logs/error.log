@@ -1,0 +1,487 @@
+2023-03-18 18:50:36 error: [Cake\Http\Exception\MissingControllerException] Controller class Inex.php could not be found. in F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Inex.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:334
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:72
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:315
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- F:\xampp\htdocs\cake\webroot\index.php:40
+
+Request URL: /inex.php
+Client IP: 127.0.0.1
+
+
+2023-03-18 18:51:31 error: [Cake\View\Exception\MissingTemplateException] Template file `Books\view.php` could not be found.
+
+The following paths were searched:
+
+- `F:\xampp\htdocs\cake\templates\Books\view.php`
+- `F:\xampp\htdocs\cake\vendor\cakephp\cakephp\templates\Books\view.php`
+ in F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Books\\view.php',
+  'paths' => 
+  array (
+    0 => 'F:\\xampp\\htdocs\\cake\\templates\\',
+    1 => 'F:\\xampp\\htdocs\\cake\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:766
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:764
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:548
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- F:\xampp\htdocs\cake\webroot\index.php:40
+
+Request URL: /books/view/1
+Referer URL: http://localhost/cake/books/
+Client IP: 127.0.0.1
+
+
+2023-03-19 10:53:53 warning: Warning (2): include(Validator): Failed to open stream: No such file or directory in [F:\xampp\htdocs\cake\src\Model\Table\BooksTable.php, line 5]
+Request URL: /books
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+include - APP/Model\Table\BooksTable.php, line 5
+include - APP/Model\Table\BooksTable.php, line 5
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 571
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 428
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 161
+Cake\Core\App::className() - CORE\src\Core\App.php, line 68
+Cake\ORM\Locator\TableLocator::_getClassName() - CORE\src\ORM\Locator\TableLocator.php, line 291
+Cake\ORM\Locator\TableLocator::createInstance() - CORE\src\ORM\Locator\TableLocator.php, line 227
+Cake\Datasource\Locator\AbstractLocator::get() - CORE\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\ORM\Locator\TableLocator::get() - CORE\src\ORM\Locator\TableLocator.php, line 205
+Cake\Controller\Controller::loadModel() - CORE\src\Datasource\ModelAwareTrait.php, line 128
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 315
+App\Controller\BooksController::index() - APP/Controller\BooksController.php, line 14
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 539
+Cake\Controller\ControllerFactory::handle() - CORE\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 115
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 317
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2023-03-19 10:53:53 warning: Warning (2): include() [<a href='https://secure.php.net/function.include'>function.include</a>]: Failed opening 'Validator' for inclusion (include_path='F:\xampp\php\PEAR') in [F:\xampp\htdocs\cake\src\Model\Table\BooksTable.php, line 5]
+Request URL: /books
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+include - APP/Model\Table\BooksTable.php, line 5
+include - APP/Model\Table\BooksTable.php, line 5
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 571
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 428
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 161
+Cake\Core\App::className() - CORE\src\Core\App.php, line 68
+Cake\ORM\Locator\TableLocator::_getClassName() - CORE\src\ORM\Locator\TableLocator.php, line 291
+Cake\ORM\Locator\TableLocator::createInstance() - CORE\src\ORM\Locator\TableLocator.php, line 227
+Cake\Datasource\Locator\AbstractLocator::get() - CORE\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\ORM\Locator\TableLocator::get() - CORE\src\ORM\Locator\TableLocator.php, line 205
+Cake\Controller\Controller::loadModel() - CORE\src\Datasource\ModelAwareTrait.php, line 128
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 315
+App\Controller\BooksController::index() - APP/Controller\BooksController.php, line 14
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 539
+Cake\Controller\ControllerFactory::handle() - CORE\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 115
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 317
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2023-03-19 11:29:13 error: [ParseError] syntax error, unexpected token "->" in F:\xampp\htdocs\cake\src\Model\Table\EmployeesTable.php on line 79
+Stack Trace:
+- F:\xampp\htdocs\cake\vendor\composer\ClassLoader.php:428
+- class_exists - [internal], line ??- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\App.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\App.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:291
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:227
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:315
+- F:\xampp\htdocs\cake\src\Controller\EmployeesController.php:21
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:539
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- F:\xampp\htdocs\cake\webroot\index.php:40
+
+Request URL: /employees
+Client IP: 127.0.0.1
+
+
+2023-03-19 11:31:27 error: [ParseError] syntax error, unexpected token "->" in F:\xampp\htdocs\cake\src\Model\Table\EmployeesTable.php on line 79
+Stack Trace:
+- F:\xampp\htdocs\cake\vendor\composer\ClassLoader.php:428
+- class_exists - [internal], line ??- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\App.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\App.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:291
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:227
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:315
+- F:\xampp\htdocs\cake\src\Controller\EmployeesController.php:21
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:539
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- F:\xampp\htdocs\cake\webroot\index.php:40
+
+Request URL: /employees
+Client IP: 127.0.0.1
+
+
+2023-03-19 11:32:10 error: [Error] Call to undefined method Cake\Validation\Validator::min() in F:\xampp\htdocs\cake\src\Model\Table\EmployeesTable.php on line 79
+Stack Trace:
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php:121
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php:95
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Form\EntityContext.php:624
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Form\EntityContext.php:509
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1374
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1344
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1237
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1047
+- F:\xampp\htdocs\cake\templates\Employees\add.php:20
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:1181
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:1138
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:769
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:764
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:548
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- F:\xampp\htdocs\cake\webroot\index.php:40
+
+Request URL: /employees/add
+Referer URL: http://localhost/cake/employees
+Client IP: 127.0.0.1
+
+
+2023-03-19 11:35:17 error: [Error] Call to undefined method Cake\Validation\Validator::max() in F:\xampp\htdocs\cake\src\Model\Table\EmployeesTable.php on line 80
+Stack Trace:
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php:121
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php:95
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Form\EntityContext.php:624
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Form\EntityContext.php:509
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1374
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1344
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1237
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1047
+- F:\xampp\htdocs\cake\templates\Employees\add.php:20
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:1181
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:1138
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:769
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:764
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:548
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- F:\xampp\htdocs\cake\webroot\index.php:40
+
+Request URL: /employees/add
+Client IP: 127.0.0.1
+
+
+2023-03-19 11:35:31 error: [Error] Call to undefined method Cake\Validation\Validator::lowerThanOrEqual() in F:\xampp\htdocs\cake\src\Model\Table\EmployeesTable.php on line 80
+Stack Trace:
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php:121
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php:95
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Form\EntityContext.php:624
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Form\EntityContext.php:509
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1374
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1344
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1237
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:1047
+- F:\xampp\htdocs\cake\templates\Employees\add.php:20
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:1181
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:1138
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php:769
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:764
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:548
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- F:\xampp\htdocs\cake\webroot\index.php:40
+
+Request URL: /employees/add
+Client IP: 127.0.0.1
+
+
+2023-03-19 11:55:48 warning: Warning (2): Undefined variable $etaty in [F:\xampp\htdocs\cake\templates\Employees\add.php, line 23]
+Request URL: /employees/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+include - ROOT\templates\Employees\add.php, line 23
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1181
+Cake\View\View::_render() - CORE\src\View\View.php, line 1138
+Cake\View\View::render() - CORE\src\View\View.php, line 769
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 764
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 548
+Cake\Controller\ControllerFactory::handle() - CORE\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 115
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 317
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2023-03-19 11:56:02 warning: Warning (2): Undefined variable $etat in [F:\xampp\htdocs\cake\templates\Employees\add.php, line 23]
+Request URL: /employees/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+include - ROOT\templates\Employees\add.php, line 23
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1181
+Cake\View\View::_render() - CORE\src\View\View.php, line 1138
+Cake\View\View::render() - CORE\src\View\View.php, line 769
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 764
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 548
+Cake\Controller\ControllerFactory::handle() - CORE\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 115
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 317
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2023-03-19 11:59:08 warning: Warning (2): Undefined variable $etat in [F:\xampp\htdocs\cake\templates\Employees\add.php, line 23]
+Request URL: /employees/add
+Referer URL: http://localhost/cake/employees
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 123
+include - ROOT\templates\Employees\add.php, line 23
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1181
+Cake\View\View::_render() - CORE\src\View\View.php, line 1138
+Cake\View\View::render() - CORE\src\View\View.php, line 769
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 764
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 548
+Cake\Controller\ControllerFactory::handle() - CORE\src\Controller\ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 115
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 317
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2023-03-19 12:19:44 error: [ParseError] syntax error, unexpected variable "$validator" in F:\xampp\htdocs\cake\src\Model\Table\EmployeesTable.php on line 58
+Stack Trace:
+- F:\xampp\htdocs\cake\vendor\composer\ClassLoader.php:428
+- class_exists - [internal], line ??- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\App.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Core\App.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:291
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:227
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:315
+- F:\xampp\htdocs\cake\src\Controller\EmployeesController.php:49
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php:539
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- F:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- F:\xampp\htdocs\cake\webroot\index.php:40
+
+Request URL: /employees/add
+Client IP: 127.0.0.1
+
+
